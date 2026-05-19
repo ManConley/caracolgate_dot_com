@@ -76,9 +76,9 @@ img {
 
 img.upper-left {
   float: left;
-  width: clamp(100px, 20%, 200px);  /* responsive width */
-  margin: 0.25rem 1rem 0.5rem 0;   /* gap between image and text */
-  shape-outside: margin-box;         /* text follows the box edge */
+  width: clamp(150px, 30%, 300px); /* responsive width */
+  margin: 0.25rem 1.5rem 0.75rem 0.25rem; /* gap between image and text */
+  shape-outside: margin-box; /* text follows the box edge */
 }
 
 @media (max-width: 600px) {
