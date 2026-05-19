@@ -1,17 +1,16 @@
 ---
-import Base from '../layouts/Base.astro';
+import Base from "../layouts/Base.astro";
 ---
 
 <Base title="Connect – Cara Colgate, LICSW" currentPage="connect">
   <div class="hero-image">
-    <img
-      src="/images/connect-fern.jpg"
-      alt="A young fern frond unfurling"
-    />
+    <img src="/images/connect-fern.jpg" alt="A young fern frond unfurling" />
   </div>
 
   <div class="content">
-    <p>You can contact me using the form below or directly via email or phone.</p>
+    <p>
+      You can contact me using the form below or directly via email or phone.
+    </p>
 
     <section class="contact-details">
       <h2>Location &amp; Contact Details</h2>
@@ -19,11 +18,13 @@ import Base from '../layouts/Base.astro';
         Address: <a
           href="https://maps.google.com/?q=51+River+Street+Wellesley+MA+02481"
           target="_blank"
-          rel="noopener noreferrer"
-        >51 River Street, Wellesley MA 02481</a>
+          rel="noopener noreferrer">51 River Street, Wellesley MA 02481</a
+        >
       </p>
       <p>Phone: <a href="tel:6179038115">(617) 903-8115</a></p>
-      <p>Email: <a href="mailto:cara@caracolgate.com">cara@caracolgate.com</a></p>
+      <p>
+        Email: <a href="mailto:cara@caracolgate.com">cara@caracolgate.com</a>
+      </p>
     </section>
 
     <section class="contact-form-section">
@@ -36,12 +37,23 @@ import Base from '../layouts/Base.astro';
       >
         <div class="field">
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" required placeholder="your@email.com" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="your@email.com"
+          />
         </div>
 
         <div class="field">
           <label for="message">Message</label>
-          <textarea id="message" name="message" rows="6" required placeholder="How can I help you?"></textarea>
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            required
+            placeholder="How can I help you?"></textarea>
         </div>
 
         <button type="submit">Send Message</button>
@@ -159,7 +171,9 @@ import Base from '../layouts/Base.astro';
     text-transform: uppercase;
     border-radius: 3px;
     cursor: pointer;
-    transition: background 0.2s, transform 0.1s;
+    transition:
+      background 0.2s,
+      transform 0.1s;
     margin-top: 0.5rem;
   }
 
